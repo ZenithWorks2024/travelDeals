@@ -1,0 +1,55 @@
+.formContainer {
+  @apply max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12;
+}
+
+.formCard {
+  @apply bg-white rounded-xl shadow-lg p-8;
+}
+
+.formTitle {
+  @apply text-3xl font-bold text-gray-900 mb-8 text-center;
+}
+
+.formGroup {
+  @apply space-y-6;
+}
+
+.inputGroup {
+  @apply space-y-2;
+}
+
+.label {
+  @apply block text-sm font-medium text-gray-700;
+}
+
+.input {
+  @apply w-full rounded-lg border-gray-300 shadow-sm focus:border-primary-500 focus:ring-primary-500;
+}
+
+.select {
+  @apply w-full rounded-lg border-gray-300 shadow-sm focus:border-primary-500 focus:ring-primary-500;
+}
+
+.richTextEditor {
+  @apply min-h-[200px] w-full rounded-lg border-gray-300 shadow-sm focus:border-primary-500 focus:ring-primary-500;
+}
+
+.submitButton {
+  @apply w-full bg-primary-600 text-white py-3 px-6 rounded-lg hover:bg-primary-700 transition-colors font-medium;
+}
+
+.stopsContainer {
+  @apply space-y-4 mt-4;
+}
+
+.stopItem {
+  @apply flex items-center space-x-4;
+}
+
+.removeButton {
+  @apply text-red-500 hover:text-red-700;
+}
+
+.addButton {
+  @apply text-primary-600 hover:text-primary-700 flex items-center space-x-2;
+}
